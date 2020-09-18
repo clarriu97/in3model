@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NagivationBarYouTube</string>
+    <string name="PresentationActivityText">Welcome to the official lN3 app!
+    \n\nWith no more than your mobile phone you will be able to controll, manage and watch all kind of data related with your incubators
+    \n\nHope you enjoy!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutUsMain">In3 was born in september, 2014 as an idea: what if there was a free access and open hardware incubator published for free on the Internet? Something like that could make local craftsman make their own incubators for premature babies. It would be great, would not be?\nWith this base, Alejandro Escario got down to work. The first prototype was ready for June 2015, as it was Alejandro\'s thesis for his Master in Biomedical Engineering. Months later, this prototype kept evolving and improving lots of the first draft characteristics.</string>
+</resources>

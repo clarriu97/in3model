@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/incubatorsFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Incubators"/>
+
+    <item
+        android:id="@+id/incubatorsFavFragment"
+        android:icon="@drawable/ic_favs_24dp"
+        android:title="Favs"/>
+
+    <item
+        android:id="@+id/alertsFragment"
+        android:icon="@drawable/ic_baseline_add_alert_24"
+        android:title="Alerts"/>
+
+    <item
+        android:id="@+id/adminUserFragment"
+        android:icon="@drawable/ic_profile_24"
+        android:title="Profile"/>
+
+</menu>

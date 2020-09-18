@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+
+    <TextView
+    android:id="@+id/isActiveNormalTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ASDF"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:id="@+id/temperatureNormalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASDF"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:id="@+id/ppmNormalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASDF"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:id="@+id/isFavNormalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASDF"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+</LinearLayout>

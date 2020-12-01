@@ -1,5 +1,8 @@
 package com.larriu.in3model;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+
 public class Incubator {
 
     private boolean fav, active;
@@ -13,6 +16,10 @@ public class Incubator {
         this.fav = fav;
         hum = 0;
         id = 0;
+    }
+
+    public Incubator(DataInputStream dis) {
+        // TODO: make this constructor
     }
 
     public boolean isFav() {
@@ -37,5 +44,9 @@ public class Incubator {
 
     public int getId() {
         return id;
+    }
+
+    public void write(DataOutputStream dos) {
+        //TODO: make this method
     }
 }

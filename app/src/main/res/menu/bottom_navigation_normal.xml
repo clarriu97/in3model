@@ -7,11 +7,6 @@
         android:title="Incubators"/>
 
     <item
-        android:id="@+id/favsFragment"
-        android:icon="@drawable/ic_favs_24dp"
-        android:title="Favs"/>
-
-    <item
         android:id="@+id/mapsFragment"
         android:icon="@drawable/ic_baseline_map_24"
         android:title="Map"/>

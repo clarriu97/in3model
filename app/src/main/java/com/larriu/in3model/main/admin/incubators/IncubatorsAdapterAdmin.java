@@ -14,12 +14,12 @@ import com.larriu.in3model.Storage;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IncubatorsAdminlAdapter extends BaseAdapter {
+public class IncubatorsAdapterAdmin extends BaseAdapter {
 
     private LayoutInflater inflater;
     private boolean fav;
 
-    public IncubatorsAdminlAdapter(Activity activity, boolean fav) {
+    public IncubatorsAdapterAdmin(Activity activity, boolean fav) {
         inflater = activity.getLayoutInflater();
         this.fav = fav;
     }

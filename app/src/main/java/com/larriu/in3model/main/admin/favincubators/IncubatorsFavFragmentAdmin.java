@@ -1,4 +1,4 @@
-package com.larriu.in3model.main.admin.incubators;
+package com.larriu.in3model.main.admin.favincubators;
 
 import android.os.Bundle;
 
@@ -10,22 +10,22 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.larriu.in3model.R;
-import com.larriu.in3model.main.normal.incubators.IncubatorsNormalAdapter;
+import com.larriu.in3model.main.admin.incubators.IncubatorsAdapterAdmin;
 
-public class IncubatorsFragment extends Fragment {
+public class IncubatorsFavFragmentAdmin extends Fragment {
 
     private ListView listView;
-    private IncubatorsAdminlAdapter adapter;
+    private IncubatorsAdapterAdmin adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_incubators, container, false);
+        View view = inflater.inflate(R.layout.fragment_incubators_fav_admin, container, false);
 
         // Setup the ListView and the Adapter
-        listView = view.findViewById(R.id.incubatorsListViewAdmin);
-        adapter = new IncubatorsAdminlAdapter(getActivity(), false);
+        listView = view.findViewById(R.id.incubatorsFavsListViewAdmin);
+        adapter = new IncubatorsAdapterAdmin(getActivity(), true);
         listView.setAdapter(adapter);
         listView.setDivider(null);
 

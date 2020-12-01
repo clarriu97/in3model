@@ -10,7 +10,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.larriu.in3model.R;
-import com.larriu.in3model.authentication.AuthActivity;
+import com.larriu.in3model.authentication.LoginActivity;
 import com.larriu.in3model.intro.IntroActivity;
 
 public class MainActivityNormal extends AppCompatActivity {
@@ -63,7 +63,7 @@ public class MainActivityNormal extends AppCompatActivity {
     }
 
     private void showAuth() {
-        Intent intent = new Intent(this, AuthActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
     }

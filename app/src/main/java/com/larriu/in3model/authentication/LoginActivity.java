@@ -13,12 +13,12 @@ import com.larriu.in3model.R;
 import com.larriu.in3model.main.normal.MainActivityNormal;
 
 
-public class AuthActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_auth);
+        setContentView(R.layout.activity_login);
 
         setTitle("AUTENTICACIÓN");
 
@@ -32,7 +32,16 @@ public class AuthActivity extends AppCompatActivity {
                 editor.putString("provider", "asdf");
                 editor.commit();
 
-                Intent intent = new Intent(AuthActivity.this, MainActivityNormal.class);
+                Intent intent = new Intent(LoginActivity.this, MainActivityNormal.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        findViewById(R.id.signupButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, SigninActivity.class);
                 startActivity(intent);
                 finish();
             }
